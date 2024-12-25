@@ -22,7 +22,8 @@ export default function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h2 className="text-2xl font-semibold gradient-text mb-4">Our Mission</h2>
-            <p className="text-white">To educate, train and inspire people to reach their professional goals. We deliver value-oriented, intelligent solutions at every phase of the skills process, making the best choice for our clients.</p>
+            <p className="text-white">To educate, train and inspire people to reach their professional goals. We deliver value-oriented, intelligent solutions at every phase of the skills process, making the best choice for our clients&apos; goals.</p>
+
           </motion.div>
           <motion.div 
             className="bg-white bg-opacity-5 backdrop-filter backdrop-blur-lg rounded-xl p-6 shadow-lg"

@@ -1,3 +1,5 @@
+'use client'
+
 import { motion } from 'framer-motion'
 import Link from 'next/link'
 import { ArrowRight, BookOpen, Users, Code, Award } from 'lucide-react'
@@ -161,7 +163,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-white text-lg italic mb-4">
-              "RDR Software Solutions has been instrumental in upskilling our IT team. Their tailored training programs and expert instructors have significantly improved our team's productivity and technical capabilities."
+            &quot;RDR Software Solutions has been instrumental in upskilling our IT team. Their tailored training programs and expert instructors have significantly improved our team&apos;s productivity and technical capabilities.&quot;
             </p>
             <p className="text-violet-400 font-semibold">- John Doe, CTO of TechCorp</p>
           </motion.div>
