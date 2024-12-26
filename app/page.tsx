@@ -2,12 +2,12 @@
 
 import { motion } from 'framer-motion'
 import Link from 'next/link'
-import { ArrowRight, BookOpen, Users, Code, Award } from 'lucide-react'
+import { ArrowRight, Users, BookOpen, Code, Award } from 'lucide-react'
 
 const services = [
   {
     title: 'Corporate Training',
-    description: 'Tailored programs to enhance your team\'s skills and productivity.',
+    description: 'Tailored programs to enhance your team&apos;s skills and productivity.',
     icon: Users,
     link: '/services#corporate-training'
   },
@@ -163,7 +163,7 @@ export default function Home() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <p className="text-white text-lg italic mb-4">
-            &quot;RDR Software Solutions has been instrumental in upskilling our IT team. Their tailored training programs and expert instructors have significantly improved our team&apos;s productivity and technical capabilities.&quot;
+              &quot;RDR Software Solutions has been instrumental in upskilling our IT team. Their tailored training programs and expert instructors have significantly improved our team&apos;s productivity and technical capabilities.&quot;
             </p>
             <p className="text-violet-400 font-semibold">- John Doe, CTO of TechCorp</p>
           </motion.div>
